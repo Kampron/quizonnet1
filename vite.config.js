@@ -7,7 +7,7 @@ export default defineConfig({
   server: {
     proxy: {
       "/quizonnet": {
-        target: "http://localhost:4000",
+        target: "https://quizonnet-server.onrender.com",
         changeOrigin: true,
         secure: false,
         rewrite: (path) => path.replace(/^\/api/, '')
