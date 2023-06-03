@@ -5,16 +5,16 @@ import react from '@vitejs/plugin-react'
 export default defineConfig({
   base: "/quizonnet_client",
   plugins: [react()],
-  server: {
-    proxy: {
-      "/quizonnet": {
-        target: "https://quizonnet-server.onrender.com",
-        changeOrigin: true,
-        secure: false,
-        rewrite: (path) => path.replace(/^\/api/, '')
-      }
-    }
-  },
+  // server: {
+  //   proxy: {
+  //     "/quizonnet": {
+  //       target: "https://quizonnet-server.onrender.com",
+  //       changeOrigin: true,
+  //       secure: false,
+  //       rewrite: (path) => path.replace(/^\/api/, '')
+  //     }
+  //   }
+  // },
 
   build: {
         rollupOptions: {
