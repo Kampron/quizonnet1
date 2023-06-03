@@ -9,7 +9,7 @@ const initialState = {
   confirmPwd: "",
 }
 
-const Changepwd = () => {
+const Changepwdd = () => {
   const [formData, setFormData] = useState(initialState)
 
   const { currentPwd, newPwd, confirmPwd } = formData
@@ -58,4 +58,4 @@ const Changepwd = () => {
   )
 }
 
-export default Changepwd
+export default Changepwdd

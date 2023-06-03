@@ -1,5 +1,5 @@
 import React from 'react'
-import Changepwd from '../components/Auth/ChangePwd'
+import Changepwdd from '../components/Auth/Changepwdd'
 import PageMenu from '../components/Auth/PageMenu'
 
 const ChangePwd = () => {
@@ -7,7 +7,7 @@ const ChangePwd = () => {
     <div className='min-h-screen bg_img '>
         <div className='flex flex-col justify-center items-center min-h-screen py-[1rem] px-[0.5rem]'>
             <PageMenu />
-            <Changepwd />
+            <Changepwdd />
         </div>
         
     </div>
