@@ -11,7 +11,7 @@ export default defineConfig({
         target: "https://quizonnet-server.onrender.com",
         changeOrigin: true,
         secure: false,
-        // rewrite: (path) => path.replace(/^\/api/, '')
+        rewrite: (path) => path.replace(/^\/api/, '')
       }
     }
   },
