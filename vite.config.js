@@ -3,7 +3,7 @@ import react from '@vitejs/plugin-react'
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  base: "/quizonnet_client",
+  // base: "/quizonnet_client",
   plugins: [react()],
   server: {
     proxy: {
