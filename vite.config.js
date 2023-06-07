@@ -7,8 +7,8 @@ export default defineConfig({
   plugins: [react()],
   server: {
     proxy: {
-      "/quizonnet": {
-        target: "http://localhost:4000",
+      "/api": {
+        target: "https://quizonnet-server.onrender.com",
         changeOrigin: true,
         secure: false,
         rewrite: (path) => path.replace(/^\/api/, '')
@@ -31,4 +31,4 @@ export default defineConfig({
 })
 
 
-// http://localhost:400
+// http://localhost:4000
