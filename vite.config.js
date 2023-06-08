@@ -8,9 +8,8 @@ export default defineConfig({
   server: {
     proxy: {
       "/api": {
-        target: "https://quizonnet-server.onrender.com/",
+        target: "https://quizonnet-server.onrender.com",
         changeOrigin: true,
-        // secure: false,
         rewrite: (path) => path.replace(/^\/api/, '')
       }
     }
