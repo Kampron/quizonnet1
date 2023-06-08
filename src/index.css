@@ -314,7 +314,7 @@ input[type='file'] {
 } */
 
 .bg_img {
-  background-image: url('/Background.png');
+  background-image: url('/background.png');
 }
 
 .--btn {
