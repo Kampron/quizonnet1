@@ -8,7 +8,7 @@ export default defineConfig({
   server: {
     proxy: {
       "/api": {
-        target: "https://quizsheet-server.onrender.com",
+        target: "https://quizonnet-server.onrender.com",
         changeOrigin: true,
         rewrite: (path) => path.replace(/^\/api/, '')
       }
