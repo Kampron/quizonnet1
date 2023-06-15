@@ -313,9 +313,9 @@ input[type='file'] {
   display: none;
 } */
 
-.bg_img {
+/* .bg_img {
   background-image: url('/background.png');
-}
+} */
 
 .--btn {
   font-size: 1.6rem;
