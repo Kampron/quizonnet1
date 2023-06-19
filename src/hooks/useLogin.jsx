@@ -9,7 +9,7 @@ import { useNavigate } from "react-router-dom";
 export const useLogin = () => {
     const [error, setError] = useState(null)
     const [isLoading, setIsLoading] = useState(null)
-    const { user, dispatch } = useAuthContext()
+    const { dispatch } = useAuthContext()
     const navigate = useNavigate()
     const toast = useToast()
     
