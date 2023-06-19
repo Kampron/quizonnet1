@@ -5,7 +5,7 @@ import { AuthContextProvider } from './context/AuthContext'
 import { UserContextProvider } from './context/UserContext'
 import ReactDOM from 'react-dom/client'
 import App from './App'
-import './index.css'
+import './style.css'
 import { Provider  } from 'react-redux'
 import store from './redux/store'
 
