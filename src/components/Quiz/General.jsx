@@ -21,7 +21,7 @@ const General = () => {
         </div>
         <div className='mt-[1rem] flex flex-col items-center relative text-white'>
             <h3 className='text-[1.5rem] sm:text-[2rem]'>
-                Hello, Quizzer  <span className='text-blueColor capitalize'>{ user.user.username}</span>
+                Hello, Quizzer  <span className='text-blueColor capitalize'>{ user.email}</span>
             </h3>
             <motion.span 
               variants={staggerContainer}

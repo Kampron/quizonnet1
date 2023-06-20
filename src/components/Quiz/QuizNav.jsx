@@ -94,7 +94,7 @@ const QuizNav = () => {
     </ul>
          <div className='hidden space-x-5 md:flex'>
             <li className='ml-[3rem] opacity-[0.6] hover:opacity-[1] text-[0.85rem] text-white font-normal capitalise '>
-                { user && user.user.email}
+                { user && user.email}
             </li>
             <RxAvatar className='opacity-[0.6] hover:opacity-[1] cursor-pointer' color='white' size={20}/>
                  
