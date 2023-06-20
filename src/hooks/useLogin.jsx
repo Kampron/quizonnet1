@@ -36,8 +36,7 @@ export const useLogin = () => {
 
             // success toast
             toast({
-            title: 'Logged in successfully.',
-            description: "",
+            title: 'Logged in successfully',
             position: 'top',
             status: 'success',
             duration: 5000,
