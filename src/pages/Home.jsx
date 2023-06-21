@@ -38,10 +38,8 @@ const Home = () => {
           <Upcoming />
           <div className="gradient-04 z-0"/>
          <Feedback />
-        </div>
-        <div>
-          <Footer />
-        </div>
+         <Footer />
+        </div> 
     </div>
   )
 }
