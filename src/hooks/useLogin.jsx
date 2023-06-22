@@ -19,12 +19,13 @@ export const useLogin = () => {
 
         const response = await fetch('/quizonnet/user/login', {
             method: 'POST',
+            mode: 'no-cors',
             headers: {'Content-Type': 'application/json'},
             body: JSON.stringify({ email, password })
         });
 
         const json = await response.json();
-        
+
         if (!response.ok) {
             setIsLoading(false)
             setError(json.error)
