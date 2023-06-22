@@ -28,9 +28,9 @@ export const useLogin = () => {
             setError(json.error)
         }
 
-         const json = await response.json();
-         
+
         if (response.ok) {
+            const json = await response.json();
             // save the user to local storage
             localStorage.setItem('user', JSON.stringify(json))
 
