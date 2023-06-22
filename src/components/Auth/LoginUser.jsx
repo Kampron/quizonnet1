@@ -39,7 +39,7 @@ const LoginUser = () => {
       <section className='w-full max-w-[420px] max-h-[540px] flex flex-col justify-center p-[3rem] bg-[rgba(0,0,0,0.4)] rounded-[5px]' >
                         <Bars
                         height="80"
-                        width="80"
+                        width="40"
                         color="#fff"
                         ariaLabel="bars-loading"
                         wrapperStyle={{}}
