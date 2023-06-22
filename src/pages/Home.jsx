@@ -37,8 +37,8 @@ const Home = () => {
         <div className="relative">
           <Upcoming />
           <div className="gradient-04 z-0"/>
-         {/* <Feedback />
-         <Footer /> */}
+         <Feedback />
+         {/* <Footer /> */}
         </div> 
     </div>
   )
