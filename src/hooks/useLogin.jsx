@@ -30,7 +30,7 @@ export const useLogin = () => {
 
 
         if (response.ok) {
-            const json = await response.json();
+            const json = response;
             // save the user to local storage
             localStorage.setItem('user', JSON.stringify(json))
 
