@@ -7,7 +7,7 @@ export default defineConfig({
   plugins: [react()],
   server: {
     proxy: {
-      "/quizonnet": {
+      "/api": {
         target: "https://quizonnet-server.onrender.com",
         changeOrigin: true,
         secure: false,
