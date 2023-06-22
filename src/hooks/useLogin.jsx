@@ -19,7 +19,6 @@ export const useLogin = () => {
 
         const response = await fetch('/quizonnet/user/login', {
             method: 'POST',
-            mode: 'no-cors',
             headers: {'Content-Type': 'application/json'},
             body: JSON.stringify({ email, password })
         })
